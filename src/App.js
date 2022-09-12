@@ -1,10 +1,14 @@
-import logo from './images/react-logo.png';
+import React from 'react';
 import './App.css';
+import Navbar from './components/navbar';
+import Main from './components/main';
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
+      <Navbar />
+      <Main />
+      {/* <header className="header">
         <img className="logo" src={logo} alt="logo" width="46px" />
       </header>
       <main className="main">
@@ -16,7 +20,7 @@ function App() {
           <li className="item">Is maintained by Facebook</li>
           <li className="item">Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-      </main>
+      </main> */}
     </div>
   );
 }
