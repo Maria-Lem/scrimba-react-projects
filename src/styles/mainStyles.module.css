@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90.5vh;
+  background-color: #282D35;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 46px;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  letter-spacing: -0.5px;
+}
+
+.item {
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.item:last-of-type {
+  margin-bottom: 0;
+}
+
+.item::marker {
+  color: #61DAFB;
+  font-size: 24px;
+}
