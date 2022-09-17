@@ -10,3 +10,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  height: 100vh;
+}
+
+.container_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252C;
+}

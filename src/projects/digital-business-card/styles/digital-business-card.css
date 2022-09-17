@@ -1,0 +1,42 @@
+.card {
+  width: 317px;
+  padding: 100px 0;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.card__info {
+  padding: 21px 34px 24px;
+  background-color: #1A1B21;
+}
+
+.card__name, .card__profession, .card__website {
+  margin: 0;
+  text-align: center;
+}
+
+.card__name {
+  margin-bottom: 6px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.card__profession {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #F3BF99;
+}
+
+.card__website {
+  margin-bottom: 15px;
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #F5F5F5;
+}
+
+.card__social-links_secondary {
+  background-color: #161619;
+  list-style-type: none;
+}
