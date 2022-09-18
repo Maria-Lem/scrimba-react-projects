@@ -10,11 +10,11 @@ export default function CardInfo(props) {
       <p className="card__website">{props.website}</p>
       <div className="card__social-links_primary">
         <button className="card__social-link_primary">
-          <img src={email} alt="email logo" />
+          <img className="card__social-link-icon_primary" src={email} alt="email logo" />
           Email
         </button>
         <button className="card__social-link_primary">
-          <img src={linkedIn} alt="LinkedIn logo" />
+          <img className="card__social-link-icon_primary" src={linkedIn} alt="LinkedIn logo" />
           LinkedIn
         </button>
       </div>
