@@ -1,6 +1,7 @@
 import React from 'react';
 import AppReactFacts from './projects/react-facts-webpage/components/app-react-facts';
 import Card from './projects/digital-business-card/components/card';
+import AppAirbnb from './projects/airbnb/components/app-airbnb';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </div>
       <div className="container_card">
         <Card />
+      </div>
+      <div className="container_card">
+        <AppAirbnb />
       </div>
     </div>
   );
