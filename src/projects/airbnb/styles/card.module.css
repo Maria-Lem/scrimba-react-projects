@@ -1,0 +1,64 @@
+.card {
+  margin-bottom: 30px;
+  /* width: 176px; */
+  /* height: 302px; */
+}
+
+.imageBox {
+  position: relative;
+}
+
+.status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 6px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  z-index: 3;
+}
+
+.overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 115px;
+}
+
+.star {
+  width: 14px;
+}
+
+.numOfReviews, .country {
+  color: #918E9B;
+}
+
+.numOfReviews {
+  position: relative;
+}
+
+.numOfReviews::after {
+  content: '';
+  position: absolute;
+  top: 39%;
+  margin-left: 2px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #918E9B;
+}
+
+.title {
+  margin: 12px 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.price {
+  margin: 0;
+  font-size: 18px;
+  line-height: 110%;
+  color: #222222;
+}
