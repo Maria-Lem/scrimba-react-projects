@@ -17,7 +17,7 @@
 }
 
 .hero {
-  padding: 26px 77px 49px 36px;
+  padding: 26px 77px 29px 36px;
 }
 
 .hero__img {
@@ -28,15 +28,21 @@
 
 .hero__title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 40px;
 }
 
 .hero__text {
-  margin-bottom: 49px;
   width: 500px;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 18px;
   color: #222222;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 36px;
 }
