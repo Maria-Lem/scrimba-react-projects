@@ -22,3 +22,71 @@
   font-weight: 500;
   color: #fff;
 }
+
+.main {
+  padding: 45px 40px;
+}
+
+.card {
+  display: flex;
+  padding: 28px 0;
+  border-bottom: 3px solid #F5F5F5;
+}
+
+.card:last-of-type {
+  border-bottom: none;
+}
+
+.image {
+  margin-right: 25px;
+  width: 315px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardContent {
+  align-self: center;
+}
+
+.locationInfo {
+  display: flex;
+  align-items: center;
+}
+
+.pin {
+  margin-right: 7px;
+  width: 12px;
+}
+
+.country {
+  margin: 0;
+  margin-right: 13px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  text-transform: uppercase;
+}
+
+.locationLink {
+  color: #918E9B;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 38px;
+  color: #2B283A;
+}
+
+.dates {
+  font-weight: 700;
+  font-size: 16px;
+  color: #2B283A;
+}
+
+.description {
+  width: 580px;
+  line-height: 150%;
+  color: #2B283A;
+}
