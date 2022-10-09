@@ -9,7 +9,7 @@ let icons = [ twitter, facebook, instagram, github ];
 export default function CardFooter() {
   return (
     <ul className="card__social-links_secondary">
-      {icons.map(icon => <li className="card__social-link_secondary"><img src={icon} alt="social link icon" /></li>)}
+      {icons.map((icon, index) => <li key={index} className="card__social-link_secondary"><img src={icon} alt="social link icon" /></li>)}
     </ul>
   )
 }

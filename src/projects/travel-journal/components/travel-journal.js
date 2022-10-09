@@ -8,6 +8,7 @@ import Header from "./header";
 export default function TravelJournal() {
   const cardElement = data.map(card => {
     return (<Card 
+      key={card.id}
       {...card}
     />)
   })

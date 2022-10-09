@@ -1,9 +1,9 @@
 import React from "react";
 import mainStyles from "../styles/mainStyles.module.css";
 
-function Main() {
+function Main(props) {
   return (
-      <main className={mainStyles.main}>
+      <main className={props.darkMode ? `${mainStyles.main}` : `${mainStyles.light} ${mainStyles.main}`}>
         <div className={mainStyles.container}>
           <h1 className={mainStyles.title}>Fun facts about React</h1>
           <ul>
